@@ -1,160 +1,216 @@
 <div align="center">
 
+# BOUACIDA LOUAI
+
 ```
-██████╗  ██████╗ ██╗   ██╗ █████╗  ██████╗██╗██████╗  █████╗
-██╔══██╗██╔═══██╗██║   ██║██╔══██╗██╔════╝██║██╔══██╗██╔══██╗
-██████╔╝██║   ██║██║   ██║███████║██║     ██║██║  ██║███████║
-██╔══██╗██║   ██║██║   ██║██╔══██║██║     ██║██║  ██║██╔══██║
-██████╔╝╚██████╔╝╚██████╔╝██║  ██║╚██████╗██║██████╔╝██║  ██║
-╚═════╝  ╚═════╝  ╚═════╝ ╚═╝  ╚═╝ ╚═════╝╚═╝╚═════╝ ╚═╝  ╚═╝
+╔═══════════════════════════════════════════════════════════╗
+║  ROLE     ▸  Backend Java Developer                       ║
+║  FOCUS    ▸  Microservices · Security · Distributed Sys   ║
+║  STATUS   ▸  Building production-grade backends           ║
+║  LOCATION ▸  Algeria 🇩🇿                                   ║
+╚═══════════════════════════════════════════════════════════╝
 ```
 
-### Backend Java Developer · Spring Boot · Microservices · Security & RBAC
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Bouacida--Louai-181717?style=flat-square&logo=github)](https://github.com/Bouacida-Louai)
-[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square&logo=gmail)](mailto:abderrahmane.bouacida@univ-constantine2.dz)
-[![Location](https://img.shields.io/badge/📍-Algeria-green?style=flat-square)]()
+[![GitHub followers](https://img.shields.io/github/followers/Bouacida-Louai?style=flat-square&color=6DB33F&labelColor=1a1a2e)](https://github.com/Bouacida-Louai)
+[![Email](https://img.shields.io/badge/✉-abderrahmane.bouacida@univ--constantine2.dz-1a1a2e?style=flat-square)](mailto:abderrahmane.bouacida@univ-constantine2.dz)
 
 </div>
 
 ---
 
-## 👨‍💻 About Me
+```java
+@Developer
+public class BouacidaLouai {
 
-I'm a **Backend Java Developer** focused on building **secure, scalable distributed systems**. I specialize in production-grade microservices using the Spring ecosystem, with a strong emphasis on enterprise-level security, fault-tolerant architectures, and clean design principles.
+    private final String role       = "Backend Java Developer";
+    private final String[] passions = { "Security Engineering",
+                                        "Distributed Systems",
+                                        "Clean Architecture" };
 
-- 🔐 Passionate about **security engineering** — OAuth2, Keycloak, JWT, RBAC
-- ☁️ Building **cloud-native microservices** with Spring Cloud & Docker
-- 🏦 Experience with **ACID-compliant transaction systems** and concurrency control
-- 🧪 Advocate for **test-driven quality** with JUnit 5 & Mockito
-- 🌍 Based in **Algeria** | Open to remote opportunities
-
----
-
-## 🛠️ Tech Stack
-
-### Core
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)
-![Spring Security](https://img.shields.io/badge/Spring_Security_6-6DB33F?style=flat-square&logo=spring&logoColor=white)
-![Spring Cloud](https://img.shields.io/badge/Spring_Cloud-6DB33F?style=flat-square&logo=spring&logoColor=white)
-
-### Microservices & Resilience
-![Eureka](https://img.shields.io/badge/Eureka-0052CC?style=flat-square)
-![API Gateway](https://img.shields.io/badge/API_Gateway-FF6B35?style=flat-square)
-![Resilience4j](https://img.shields.io/badge/Resilience4j-0075B4?style=flat-square)
-![Feign Client](https://img.shields.io/badge/Feign_Client-6DB33F?style=flat-square)
-
-### Security & Auth
-![Keycloak](https://img.shields.io/badge/Keycloak_24-4D4D4D?style=flat-square&logo=keycloak&logoColor=white)
-![OAuth2](https://img.shields.io/badge/OAuth2-EB5424?style=flat-square&logo=auth0&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=json-web-tokens&logoColor=white)
-
-### Database & ORM
-![MySQL](https://img.shields.io/badge/MySQL_8-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white)
-![JPA](https://img.shields.io/badge/Spring_Data_JPA-6DB33F?style=flat-square)
-
-### DevOps & Tools
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Docker Compose](https://img.shields.io/badge/Docker_Compose-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
-![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black)
-
-### Testing
-![JUnit 5](https://img.shields.io/badge/JUnit_5-25A162?style=flat-square&logo=junit5&logoColor=white)
-![Mockito](https://img.shields.io/badge/Mockito-C5D9C8?style=flat-square)
+    public Architecture design() {
+        return new Microservices()
+                   .with(SpringCloud.EUREKA, SpringCloud.GATEWAY)
+                   .secured(Keycloak.v24, OAuth2.JWT)
+                   .resilient(Resilience4j.CIRCUIT_BREAKER)
+                   .containerized(Docker.COMPOSE)
+                   .build();
+    }
+}
+```
 
 ---
 
-## 🚀 Featured Projects
+## ⚙️ Stack
 
-### 🛒 Microservices E-Commerce Platform
-> *Production-ready distributed system · 7 independent services · Spring Cloud ecosystem*
+<table>
+<tr>
+<td valign="top" width="33%">
 
-A fully containerized e-commerce backend demonstrating enterprise microservices architecture.
+**Core**
+```
+Java
+Spring Boot 3
+Spring Security 6
+Spring Data JPA
+```
 
-| Feature | Implementation |
-|---|---|
-| 🏗️ Service Architecture | API Gateway + Eureka + Config Server |
-| 🔐 Security | JWT auth with ADMIN/USER RBAC enforced at Gateway |
-| ⚡ Fault Tolerance | Resilience4j Circuit Breaker with automatic fallback |
-| 🐳 Deployment | Docker Compose — single-command full deployment |
-| ⚙️ Config Management | Spring Cloud Config Server with env-specific overrides |
+</td>
+<td valign="top" width="33%">
 
-**Stack:** `Spring Boot 3` `Spring Cloud` `Eureka` `API Gateway` `Feign Client` `Resilience4j` `JWT` `Docker Compose` `H2`
+**Microservices**
+```
+Spring Cloud
+Eureka · API Gateway
+Feign Client
+Resilience4j
+```
 
----
+</td>
+<td valign="top" width="33%">
 
-### 🏦 SecureBank API
-> *Banking & Loan Management Platform · Enterprise-level security · ACID-compliant transactions*
+**Security**
+```
+Keycloak 24
+OAuth2 · JWT
+RBAC · BCrypt
+Custom Permission Eval
+```
 
-Production-grade banking backend with sophisticated fraud detection and multi-role authorization.
+</td>
+</tr>
+<tr>
+<td valign="top">
 
-| Feature | Implementation |
-|---|---|
-| 🔑 Auth System | Keycloak 24 + OAuth2 + JWT across 6 roles with auto realm import |
-| 🛡️ Authorization | Custom RBAC engine with amount-aware `@PreAuthorize` + `BankPermissionEvaluator` |
-| 🔒 Concurrency | Pessimistic locking + `REPEATABLE_READ` isolation to prevent race conditions |
-| 🚨 Fraud Detection | 3-rule engine: large amounts, high-frequency transactions, unusual-hour flagging |
+**Database**
+```
+MySQL 8 · H2
+JPA / Hibernate
+Pessimistic Locking
+ACID Transactions
+```
 
-**Stack:** `Spring Boot 3` `Spring Security 6` `Keycloak 24` `OAuth2` `JWT` `MySQL 8` `JPA/Hibernate` `Docker`
+</td>
+<td valign="top">
 
----
+**DevOps**
+```
+Docker · Docker Compose
+Git · Postman
+Swagger / OpenAPI
+```
 
-### 🔑 Secure Authentication & Authorization System
-> *Stateless JWT auth · Fine-grained RBAC · Built from scratch · 2024*
+</td>
+<td valign="top">
 
-A fully custom authentication backend demonstrating deep understanding of security fundamentals.
+**Testing**
+```
+JUnit 5
+Mockito
+Unit & Integration Tests
+```
 
-| Feature | Implementation |
-|---|---|
-| 🎫 Authentication | Stateless JWT with custom security filters — no session management |
-| 🎯 Authorization | Fine-grained RBAC: `PERM_READ` · `PERM_WRITE` · `PERM_DELETE` |
-| 🔒 Security | BCrypt password hashing + global exception handling |
-| ✅ Testing | Full unit test coverage of auth flows and permission logic |
-
-**Stack:** `Spring Boot 3` `Spring Security` `JWT` `MySQL` `JPA/Hibernate` `BCrypt` `JUnit 5` `Mockito`
-
----
-
-## 💼 Experience
-
-**Backend Developer Intern — NAFTAL** *(2025 · 4 months)*
-- Built RESTful APIs with Spring Boot 3 and secured them with Spring Security & JWT
-- Wrote unit tests with JUnit 5 & Mockito; participated in agile sprint ceremonies
-- Containerized services with Docker and assisted in Docker Compose environment setup
-
----
-
-## 🎓 Education
-
-**Bachelor's Degree in Computer Science — Information Systems**
-*University of Constantine 2, Algeria · 2022 – 2024*
-
-- 🏆 Final Year Project: Attendance tracking system with RBAC and reporting
-- 📚 Coursework: Algorithms · Database Systems · Software Engineering · Networks · Information Security
-
----
-
-## 🌐 Languages
-
-| Language | Level |
-|---|---|
-| Arabic | Native |
-| English | Professional |
+</td>
+</tr>
+</table>
 
 ---
 
-## 📊 GitHub Stats
+## 🗂️ Projects
+
+### `01` — Microservices E-Commerce Platform
+
+```
+┌─────────────┐     ┌────────────────┐     ┌───────────────┐
+│  API Gateway│────▶│  Config Server │     │ Eureka Server │
+│  JWT Filter │     │  (Centralized) │     │ (Discovery)   │
+└──────┬──────┘     └────────────────┘     └───────┬───────┘
+       │                                           │
+       ├──────────────────────────────────────────┤
+       │                                           │
+  ┌────▼──────┐  ┌─────────────┐  ┌──────────────▼───┐
+  │ Product   │  │   Order     │  │   Inventory      │
+  │ Service   │  │   Service   │  │   Service        │
+  └───────────┘  └──────┬──────┘  └──────────────────┘
+                        │  Feign + Circuit Breaker
+                 ┌──────▼──────┐
+                 │  Payment    │
+                 │  Service    │
+                 └─────────────┘
+  [All 7 services · Docker Compose · Single-command deploy]
+```
+
+> `Spring Boot 3` `Spring Cloud` `JWT` `Resilience4j` `Docker Compose` `H2`
+
+---
+
+### `02` — SecureBank API
+
+```
+  USER REQUEST
+       │
+  ┌────▼──────────────────────────────────────────┐
+  │           Keycloak 24 + OAuth2 + JWT           │
+  │              6 Roles · Auto Realm Import        │
+  └────┬──────────────────────────────────────────┘
+       │
+  ┌────▼────────────────────────────────────────────────┐
+  │  Custom BankPermissionEvaluator + @PreAuthorize     │
+  │  Amount-aware RBAC · Fine-grained Authorization     │
+  └────┬────────────────────────────────────────────────┘
+       │
+  ┌────▼────────────────┐    ┌────────────────────────┐
+  │  Transaction Engine │    │  Fraud Detection       │
+  │  Pessimistic Lock   │    │  ① Large amount        │
+  │  REPEATABLE_READ    │    │  ② High-frequency      │
+  │  ACID Compliance    │    │  ③ Unusual-hour flag   │
+  └─────────────────────┘    └────────────────────────┘
+```
+
+> `Spring Boot 3` `Spring Security 6` `Keycloak 24` `MySQL 8` `JPA/Hibernate` `Docker`
+
+---
+
+### `03` — Secure Auth & Authorization System
+
+```
+POST /auth/login
+    │
+    ├── BCrypt verification
+    ├── Custom JWT generation
+    └── Stateless response (no sessions)
+
+GET /api/resource
+    │
+    ├── JWT Filter (custom)
+    ├── GrantedAuthority evaluation
+    │     ├── PERM_READ   → allowed
+    │     ├── PERM_WRITE  → allowed
+    │     └── PERM_DELETE → role-gated
+    └── @RestControllerAdvice (global errors)
+
+[JUnit 5 + Mockito coverage on all auth flows]
+```
+
+> `Spring Boot 3` `Spring Security` `JWT` `MySQL` `JPA/Hibernate` `BCrypt`
+
+---
+
+## 📋 Experience & Education
+
+| Period | Role | Details |
+|--------|------|---------|
+| 2025 · 4 months | **Backend Developer Intern** @ NAFTAL | Spring Boot APIs · JWT security · Docker · Agile sprints |
+| 2022 – 2024 | **B.Sc. Computer Science** · Univ. Constantine 2 | Information Systems · Final project: RBAC attendance tracker |
+
+---
+
+## 📊 GitHub Activity
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Bouacida-Louai&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=6DB33F&icon_color=6DB33F)
+![Stats](https://github-readme-stats.vercel.app/api?username=Bouacida-Louai&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Bouacida-Louai&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=6DB33F)
+![Streak](https://streak-stats.demolab.com?user=Bouacida-Louai&theme=tokyonight&hide_border=true)
 
 </div>
 
@@ -162,10 +218,12 @@ A fully custom authentication backend demonstrating deep understanding of securi
 
 <div align="center">
 
-### 💬 Let's Connect
+```
+> Currently focused on: deeper Kubernetes patterns + reactive Spring
+> Open to: backend roles, security-focused projects, remote work
+> Reach me at: abderrahmane.bouacida@univ-constantine2.dz
+```
 
-*Always open to interesting backend challenges, security discussions, and collaboration.*
-
-📧 **abderrahmane.bouacida@univ-constantine2.dz** · 📞 **+213-775-50-29-12**
+*"Build it secure. Build it scalable. Build it right."*
 
 </div>
